@@ -25,7 +25,7 @@ async function deleteItem(){
             })
           })
         const data = await response.json()
-        console.log(data)
+        console.log(data) // this shows todo deleted in the browser console for 1 second before reload
         location.reload()
 
     }catch(err){
