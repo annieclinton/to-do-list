@@ -1,0 +1,15 @@
+h1{
+    color: red;
+}
+.completed{
+    color: gray;
+    text-decoration: line-through;
+}
+
+section {
+    width: 50%; /* Adjust the width as necessary */
+    margin: 0 auto; /* Centers the section horizontally */
+    background-color: #f8f8f8; /* Just for better visibility */
+    padding: 20px; /* Padding around the content inside the section */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
